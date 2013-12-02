@@ -35,18 +35,19 @@ if( get_theme_mod( 'marla_social1' ) != marla_default_settings('marla_social1') 
   <div class="fright"><a href="http://twitter.com/<?php echo get_theme_mod( 'marla_social1', marla_default_settings('marla_social1') ) ?>" class="twitter-follow-button" data-button="grey" data-text-color="#FFFFFF" data-link-color="#FFFFFF" data-lang="<?php marla_twitter_language ()?>">Follow @<?php echo get_theme_mod( 'marla_social1', marla_default_settings('marla_social1') ) ?></a></div>
   <?php }}?>
   <div class="logo centrar ">
-    <?php marla_admin_header_image() ?>
+             <div class="logoimg"> 
+                <?php marla_admin_header_image() ?>
+             </div>
+           <div class="logomenu">
+            <nav id="site-navigation" class="navigation-main clearfix" role="navigation">
+             <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+            </nav>
+           </div>
   </div>
 </div>
-<nav id="site-navigation" class="navigation-main clearfix" role="navigation">
-  <div class="screen-reader-text skip-link"><a href="#content" title="<?php esc_attr_e( 'Skip to content', 'marla' ); ?>">
-    <?php _e( 'Skip to content', 'marla' ); ?>
-    </a></div>
-  <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-  <div class="fright clearfix">
-    <form method="get" class="searchform fright clear"  action="<?php echo esc_url( home_url( '/' ) ); ?>">
-      <input  name="s" id="topsearch" type="search" placeholder="<?php _e( 'search...', 'marla' ); ?>"/>
-    </form>
-  </div>
-</nav>
+<div class="sliderspace ">
+<div class="mijnslider centrar ">
+ 	<?php echo do_shortcode("[metaslider id=18]"); ?>
+</div>
+</div>
 <div id="pagina" class="clear">
