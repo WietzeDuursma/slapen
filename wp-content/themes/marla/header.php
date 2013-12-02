@@ -47,7 +47,7 @@ if( get_theme_mod( 'marla_social1' ) != marla_default_settings('marla_social1') 
 </div>
 <div class="sliderspace ">
 <div class="mijnslider centrar ">
- 	<?php echo do_shortcode("[metaslider id=18]"); ?>
+ 	<?php echo ctslider_slider_template( $id ); ?>
 </div>
 </div>
 <div id="pagina" class="clear">
