@@ -99,13 +99,13 @@ padding: 0;
 
 /* Captions */
 .flex-caption {
-width: 36%;
-padding: 2%;
+width: 35%;
+padding: 12% 2%;
 position: absolute;
 left: opx;
 bottom: 10px;
- background: rgb(0, 0, 0); /* The Fallback */
-background: rgba(0, 0, 0, 0.6);
+ background: rgb(82, 197, 255); /* The Fallback */
+background: rgba(82, 197, 255, 0.6);
 color: #CCC;
 text-align: left;
 text-shadow: rgba(0, 0, 0, 0.298039) 0px -1px 0px;
