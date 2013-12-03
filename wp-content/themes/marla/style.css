@@ -1660,13 +1660,16 @@ body:before {
 }
 .mijnslider {
 
-	background:#0192E1;
-	padding: 30px 0 0 0;
+	background:#FFF;
+	padding: 15px;
 	max-width:900px; 
 	display: block;
-	margin: 0 auto; 
-	height:auto
+	margin: 30px auto 0; 
 	
+	box-shadow: 0 2px 4px rgba(0,0,0,.5);
+	-webkit-box-shadow: 0 2px 4px rgba(0,0,0,.5);
+	-moz-box-shadow: 0 2px 4px rgba(0,0,0,.5);
+	-o-box-shadow: 0 2px 4px rgba(0,0,0,.5);
 }
 .sliderspace {
 
@@ -1973,7 +1976,8 @@ blockquote p {margin-bottom:0}
 
 #header .chico {display:block; }
 
-.blog .entry-title, .archive .entry-title, .search .entry-title, #sidebar .widget-title, .todocontenido  .widget-title{background-color: #52c5ff;
+.blog .entry-title, .archive .entry-title, .search .entry-title, #sidebar .widget-title, .todocontenido  .widget-title{
+	background-color: #0192E1;
 
 color: #fff;
 

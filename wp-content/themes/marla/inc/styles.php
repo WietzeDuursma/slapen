@@ -9,6 +9,7 @@ function marla_head()
 	body {
 	background-image: <?php echo get_theme_mod( 'bg_styles', marla_default_settings('bg_styles')  ); ?>;
     font-family: '<?php echo $webfonts ?>', sans-serif;
+    
 }
 
 <?php if( get_theme_mod( 'marla_styles' ) == 'light' ) {
@@ -47,7 +48,7 @@ body.custom-background { background-color: #000; background:url("data:image/svg+
 
 if( get_theme_mod( 'header_background' ) != marla_default_settings('header_background') ) {
 ?>
-#header {background-image:url('<?php echo get_theme_mod( 'header_background' ); ?>'); background-position:center center;}
+#header {background-image:url('<?php echo get_theme_mod( 'header_background' ); ?>'); background-position:center center; padding-top: 30px;  }
 
 <?php } 
 
