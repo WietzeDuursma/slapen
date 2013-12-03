@@ -1481,7 +1481,15 @@ margin-left: -30px; }
 
 .centro {text-align:center;}
 
-.chico {font-size:0.8em; }
+.chico {
+	font-size:32px; 
+	margin-top: -90px;
+    padding-right:28px;
+	color: #FFFFFF;
+	font-weight: bold;
+	text-align: right;
+	
+ }
 
 #content p {padding:5px}
 
@@ -1665,6 +1673,7 @@ body:before {
 	background:#FFF;
 	background-image: url(images/sliderback.png);
 	background-repeat:repeat-x;
+	padding: 35px 0 0;
 	
 }
 
@@ -1962,7 +1971,7 @@ blockquote p {margin-bottom:0}
 
 #header iframe {margin:1px 0}
 
-#header .chico {display:block; font-size:0.5em}
+#header .chico {display:block; }
 
 .blog .entry-title, .archive .entry-title, .search .entry-title, #sidebar .widget-title, .todocontenido  .widget-title{background-color: #52c5ff;
 
