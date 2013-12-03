@@ -100,18 +100,20 @@ padding: 0;
 /* Captions */
 .flex-caption {
 width: 35%;
-padding: 12% 2%;
+padding: 2% 2% 12% 2%;
 position: absolute;
 left: opx;
 bottom: 10px;
- background: rgb(82, 197, 255); /* The Fallback */
-background: rgba(82, 197, 255, 0.6);
+background: rgb(0, 0, 0); /* The Fallback */
+background: rgba(0, 0, 0, 0.6);
 color: #CCC;
 text-align: left;
 text-shadow: rgba(0, 0, 0, 0.298039) 0px -1px 0px;
+border-top-right-radius: 5px 10px;
+ 	-moz-border-radius-topright: 5px 10px;
+border-bottom-right-radius: 5px 10px;
+ 	-moz-border-radius-bottomright: 5px 10px;
 
-line-height: 18px;
-border-radius: 0 0px 0px 0;
 }
 
 /* Fixes for using shortcode in Twenty Twelve Theme (and other Default themes) */
